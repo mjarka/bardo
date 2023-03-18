@@ -1,6 +1,7 @@
 {
   "name": "bardo",
   "version": "0.1.0",
+  "homepage": "https://mjarka.github.io/bardo/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.57.3",
@@ -14,11 +15,14 @@
     "three": "^0.150.1",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

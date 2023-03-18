@@ -3,7 +3,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 export function Model(props) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("/bardoFace.glb");
+  const { nodes, materials, animations } = useGLTF("bardoFace.glb");
   const { actions } = useAnimations(animations, group);
   const [animationIndex, setAnimationIndex] = useState(0);
   const currentAnimation = useRef(null);
@@ -38,4 +38,4 @@ export function Model(props) {
   );
 }
 
-useGLTF.preload("/bardoFace.glb");
+useGLTF.preload("bardoFace.glb");
