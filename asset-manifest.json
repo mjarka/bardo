@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bardo/static/css/main.073c9b0a.css",
-    "main.js": "/bardo/static/js/main.7a63cbf4.js",
+    "main.js": "/bardo/static/js/main.7554a8d3.js",
     "static/js/787.52b34e57.chunk.js": "/bardo/static/js/787.52b34e57.chunk.js",
     "index.html": "/bardo/index.html",
     "main.073c9b0a.css.map": "/bardo/static/css/main.073c9b0a.css.map",
-    "main.7a63cbf4.js.map": "/bardo/static/js/main.7a63cbf4.js.map",
+    "main.7554a8d3.js.map": "/bardo/static/js/main.7554a8d3.js.map",
     "787.52b34e57.chunk.js.map": "/bardo/static/js/787.52b34e57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7a63cbf4.js"
+    "static/js/main.7554a8d3.js"
   ]
 }
